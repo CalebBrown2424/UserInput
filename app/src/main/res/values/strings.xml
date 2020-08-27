@@ -9,4 +9,8 @@
     <string name="joemama">ex: Joe Mama</string>
     <string name="begin">Begin!</string>
     <string name="nextText">Hello</string>
+    <string name="namePower">"Name Strength: "</string>
+    <string name="gameInfo">Welcome to Name Hunter! Discover the power of your name and see if it is strong enough to stop the terrifying Name Hunter from devouring your name and your world as you know it!</string>
+    <string name="stats">Stats</string>
+    <string name="info">Info</string>
 </resources>
