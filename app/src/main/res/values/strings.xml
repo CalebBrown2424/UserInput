@@ -3,4 +3,10 @@
     <string name="entername">"Enter Name: "</string>
     <string name="back">Back</string>
     <string name="nextScreen">Next Screen</string>
+    <string name="entryText" />
+    <string name="mainText">Enter Your Name:</string>
+    <string name="welcome">"Welcome to Name Hunter! "</string>
+    <string name="joemama">ex: Joe Mama</string>
+    <string name="begin">Begin!</string>
+    <string name="nextText">Hello</string>
 </resources>
