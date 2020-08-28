@@ -31,6 +31,9 @@ public class SecondActivity extends AppCompatActivity   {
     {
         TextView textElement1 = (TextView) findViewById(R.id.textView4);
         TextView textElement2 = (TextView) findViewById(R.id.textView5);
+        TextView textElement3 = (TextView) findViewById(R.id.win);
+        TextView textElement4 = (TextView) findViewById(R.id.textView9);
+        TextView textElement5 = (TextView) findViewById(R.id.textView10);
         bundle = getIntent().getExtras();
 
         assert bundle != null;
@@ -38,8 +41,11 @@ public class SecondActivity extends AppCompatActivity   {
         int strength = 0;
         //int l = value2.length();
 
+
         for (int i = 0; i < value2.length(); i++)
         {
+            value2.toLowerCase();
+
             switch (value2.substring(i, i + 1)) {
                 case "e":
                     strength += 1;
@@ -154,8 +160,17 @@ public class SecondActivity extends AppCompatActivity   {
             strength /= 1.5;
         }
             textElement1.setText("Hello " + value2 + "!");
+            textElement4.setText("Name Length: " + value2.length());
             textElement2.setText("Name Strength: " + strength);
-
+            if(strength > 50) {
+                textElement3.setText("You keep your name!");
+                textElement5.setText("Your name is strong enough to destroy the notorious Name Hunter. Your parents chose your name well!");
+            }
+            else
+            {
+                textElement3.setText("You lost your name.");
+                textElement5.setText("The terrifying Name Hunter looms over you and devours your name in its entirety. You are forced to live out your days in a miserable, nameless life.");
+            }
        
 
 

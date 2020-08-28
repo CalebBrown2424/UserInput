@@ -13,4 +13,7 @@
     <string name="gameInfo">Welcome to Name Hunter! Discover the power of your name and see if it is strong enough to stop the terrifying Name Hunter from devouring your name and your world as you know it!</string>
     <string name="stats">Stats</string>
     <string name="info">Info</string>
+    <string name="winorlose">You won!</string>
+    <string name="namelength">"Name Length: "</string>
+    <string name="defeat">You defeated the name hunter!</string>
 </resources>

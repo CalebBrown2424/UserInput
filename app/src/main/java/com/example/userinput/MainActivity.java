@@ -30,7 +30,7 @@ EditText editText;
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("data", data);
                 startActivity(intent);
-                startActivity(new Intent(MainActivity.this, SecondActivity.class));
+
             }
         });
         }
